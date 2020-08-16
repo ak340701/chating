@@ -23,7 +23,7 @@ h1, h2 ,h3 {
 }
 
 p {
-	margin: 10px 0;
+	margin: 10px, 10px;
 
 }
 
@@ -98,7 +98,7 @@ p {
 	background: #49c1a2;
 	color: #fff;
 	cursor: pointer;
-	width: ,80px;
+	width: 120px;
 }
 .signin:hover{
 	color:black;
