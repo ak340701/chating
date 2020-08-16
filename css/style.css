@@ -83,12 +83,14 @@ p {
 	text-align: center;
 	margin-top: 150px;
 	color: rgb(48, 23, 12);
+        padding:20px;
 	
 }
 .btn{
 	display: block;
 	padding: 30px;
 	text-align: center;
+        margin-top:30px;
 	
 	
 }
