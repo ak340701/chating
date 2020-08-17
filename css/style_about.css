@@ -1,0 +1,105 @@
+/* All page  */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* main styling*/
+
+html,body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+	background-color: #fff;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+h1, h2 ,h3 {
+	padding-bottom: 20px;
+}
+
+.main {
+    background: url(/img/background.jpg);
+    line-height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+
+
+}
+
+.main-heading{
+
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+
+}
+.main-heading span{
+    color: red;
+}
+.discription{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contain{
+   
+    color:rebeccapurple;
+}
+
+/* Utility Classes */
+
+.container {
+	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+/*Navbar*/
+
+#navbar{
+	background: #333;
+	color: #fff;
+	overflow: auto;
+
+}
+
+#navbar a {
+	color: #fff;
+
+}
+#navbar h1 {
+	float: left;
+	padding-top: 20px;
+}
+
+#navbar ul{
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.about
+ {
+	background: #444;
+    color: #f7c08a;
+ }
+ 
