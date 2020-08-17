@@ -1,0 +1,138 @@
+/* All page  */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* main styling*/
+
+html,body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+    background-color: #344a72;
+    color:#fff;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+h1, h2 ,h3 {
+	padding-bottom: 20px;
+}
+
+
+/* Utility Classes */
+
+.container {
+	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+/*Navbar*/
+
+#navbar{
+	background: #333;
+	color: #fff;
+	overflow: auto;
+
+}
+
+#navbar a {
+	color: #fff;
+
+}
+#navbar h1 {
+	float: left;
+	padding-top: 20px;
+}
+
+#navbar ul{
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.about
+ {
+	background: #444;
+    color: #f7c08a;
+ }
+
+ /* my editing form*/
+
+.bottom-text a {
+    text-decoration: none;
+}
+#container{
+    margin: 30px auto;
+    max-width: 400px;
+    padding: 20px;
+    line-height: 1.8;
+    
+}
+.form-wrap{
+    background: #ffffff;;
+    padding: 15px 25px;
+    color: #333;
+}
+.form-wrap h1,
+.form-wrap p {
+    text-align: center;
+}
+.form-wrap .form-group {
+    margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+    display: block;
+    color: #666;
+}
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px; 
+}
+.form-wrap button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #49c1a2;
+    color: #fff;
+    cursor: pointer;
+}
+.form-wrap button:hover{
+    background: #37a08e;
+}
+
+.form-wrap .bottom-text {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.form-wrap a{
+    color: blue;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
+footer a {
+    color: #49c1a2;
+}
